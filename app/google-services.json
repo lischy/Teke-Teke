@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "339065593699",
+    "firebase_url": "https://teke-teke-a8fe0.firebaseio.com",
+    "project_id": "teke-teke-a8fe0",
+    "storage_bucket": "teke-teke-a8fe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339065593699:android:6f8432048acb83ecd0fd56",
+        "android_client_info": {
+          "package_name": "com.example.teketeke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339065593699-9i7k7vhlrdo1m0tgro5vu0hqu8hkg1ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvpYiliqdFgucUnzA3wkey2S1L2robZF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339065593699-9i7k7vhlrdo1m0tgro5vu0hqu8hkg1ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

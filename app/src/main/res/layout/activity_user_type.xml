@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="driverClick"
+            type="com.example.teketeke.UserTypeActivity.ClickListener" />
+        <variable
+            name="customerClick"
+            type="com.example.teketeke.UserTypeActivity.ClickListener" />
+    </data>
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UserTypeActivity">
+
+        <Button
+            android:id="@+id/driver_btn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/background_light"
+            android:text="I am a driver"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:onClick="@{driverClick::onClickDriverRegister}"/>
+
+        <Button
+            android:id="@+id/customer_btn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/driver_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/background_light"
+            android:text="I am a customer"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:onClick="@{customerClick::onClickCustomerRegister}"/>
+    </RelativeLayout>
+</layout>
